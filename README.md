@@ -81,7 +81,7 @@ Point of interest near me
     }
 
     function getWikipediaPOIs(lat, lon, radiusKm) {
-      const url = `https://secure.geonames.org/findNearbyWikipediaJSON?lat=${lat}&lng=${lon}&radius=${radiusKm}&maxRows=50&username=demo`;
+      const url = `https://secure.geonames.org/findNearbyWikipediaJSON?lat=${lat}&lng=${lon}&radius=${radiusKm}&maxRows=50&username=tjolding`;
 
       // Replace "demo" with your registered username from geonames.org
       fetch(url)
